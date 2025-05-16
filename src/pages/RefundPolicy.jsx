@@ -21,15 +21,24 @@ const RefundPolicy = () => (
       <li>Proof of purchase (receipt or order number) is required.</li>
     </ul>
 
-    <h2 className="text-2xl font-semibold mb-3">Non-Refundable Items</h2>
+    <h2 className="text-2xl font-semibold mb-3">Shipping Policy</h2>
     <p className="mb-4">
-      Certain items are not eligible for refunds, including:
+      At ShopSphere, we strive to deliver your order quickly, accurately, and in good condition.
     </p>
     <ul className="list-disc ml-6 mb-4 space-y-2">
-      <li>Digital products, downloads, or software.</li>
-      <li>Gift cards.</li>
-      <li>Sale or clearance items (unless defective).</li>
+      <li><strong>Standard Shipping:</strong> 4–7 business days</li>
+      <li><strong>Express Shipping:</strong> 1–3 business days</li>
+      <li><strong>International Shipping:</strong> 7–14 business days</li>
     </ul>
+    <p className="mb-4">
+      Shipping charges are calculated at checkout based on the destination and order weight.
+    </p>
+    <p className="mb-4">
+      A tracking number will be provided via email once your order is shipped. Please allow up to 24 hours for tracking info to become active.
+    </p>
+    <p className="mb-4">
+      Delays due to customs, holidays, or unforeseen issues are not our responsibility, but we will do our best to support you.
+    </p>
 
     <h2 className="text-2xl font-semibold mb-3">Refund Process</h2>
     <p className="mb-4">
@@ -39,7 +48,7 @@ const RefundPolicy = () => (
       Once your return is received and inspected, we will notify you of the approval or rejection of your refund.
     </p>
     <p className="mb-4">
-      If approved, your refund will be processed and a credit will automatically be applied to your original method of payment within 7-10 business days.
+      If approved, your refund will be processed and a credit will automatically be applied to your original method of payment within 7–10 business days.
     </p>
 
     <h2 className="text-2xl font-semibold mb-3">Exchanges</h2>
@@ -54,7 +63,7 @@ const RefundPolicy = () => (
 
     <h2 className="text-2xl font-semibold mb-3">Contact Us</h2>
     <p>
-      If you have any questions about our refund policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a>.
+      If you have any questions about our refund or shipping policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a>.
     </p>
   </motion.div>
 );
