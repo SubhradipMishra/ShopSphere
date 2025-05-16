@@ -17,14 +17,14 @@ const dummyProducts = [
     id: '3',
     name: 'Wireless Headphones',
     price: 99.99,
-    image: 'https://images.unsplash.com/photo-1516707570267-8605c8f93b0a?auto=format&fit=crop&w=600&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1677158265072-5d15db9e23b2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description: 'Comfortable wireless headphones with noise cancellation.',
   },
   {
     id: '4',
-    name: 'Fitness Tracker',
+    name: 'Smart Watch',
     price: 79.99,
-    image: 'https://images.unsplash.com/photo-1526403226061-1e47f78f3d23?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description: 'Track your daily activities and sleep quality easily.',
   },
   {
