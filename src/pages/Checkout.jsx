@@ -26,7 +26,6 @@ const Checkout = () => {
   );
   const amountInPaise = Math.round(totalPrice * 100);
 
-  // Load Razorpay script helper
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
       if (document.getElementById('razorpay-script')) {
@@ -42,7 +41,6 @@ const Checkout = () => {
     });
   };
 
-  // Handle payment
   const handlePayment = async () => {
     const res = await loadRazorpayScript();
 
@@ -81,7 +79,6 @@ const Checkout = () => {
 
   const handlePlaceOrder = (e) => {
     e.preventDefault();
-    // Simple validation could be done here, but we trigger payment instead of alert
     handlePayment();
   };
 
@@ -94,13 +91,12 @@ const Checkout = () => {
   }
 
   return (
-   <motion.div
-  className="min-h-screen bg-gradient-to-br from-black via-blue-900 to-black text-yellow-300 p-8 max-w-5xl mx-auto"
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
->
-
+    <motion.div
+      className="min-h-screen bg-gradient-to-br from-black via-blue-900 to-black text-yellow-300 p-8 max-w-5xl mx-auto"
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
       <h1 className="text-4xl font-extrabold mb-8">Checkout</h1>
 
       {/* Cart Summary */}
@@ -110,13 +106,13 @@ const Checkout = () => {
           {cartItems.map((item) => (
             <li key={item.id} className="flex justify-between py-2">
               <span>{item.name} x {item.quantity}</span>
-              <span>${(item.price * item.quantity).toFixed(2)}</span>
+              <span>₹{(item.price * item.quantity).toLocaleString("en-IN")}</span>
             </li>
           ))}
         </ul>
         <div className="flex justify-between font-bold text-xl mt-4 border-t border-yellow-700 pt-4">
           <span>Total</span>
-          <span>${totalPrice.toFixed(2)}</span>
+          <span>₹{totalPrice.toLocaleString("en-IN")}</span>
         </div>
       </div>
 
@@ -217,7 +213,7 @@ const Checkout = () => {
           type="submit"
           className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 rounded-full text-lg shadow-lg transition"
         >
-          Pay ₹{totalPrice.toFixed(2)}
+          Pay ₹{totalPrice.toLocaleString("en-IN")}
         </button>
       </form>
     </motion.div>

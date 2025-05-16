@@ -44,7 +44,7 @@ const Cart = () => {
             />
             <div className="flex-1 px-6">
               <h2 className="text-xl font-semibold">{item.name}</h2>
-              <p className="text-blue-400 font-bold">${item.price.toFixed(2)}</p>
+              <p className="text-blue-400 font-bold">₹{item.price.toFixed(2)}</p>
             </div>
             <div className="flex items-center space-x-4">
               <button
@@ -72,7 +72,7 @@ const Cart = () => {
         ))}
 
         <div className="mt-12 text-right text-3xl font-bold">
-          Total: ${totalPrice.toFixed(2)}
+          Total: ₹{totalPrice.toFixed(2)}
         </div>
 
         <div className="mt-6 flex justify-end">

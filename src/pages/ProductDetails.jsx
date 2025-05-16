@@ -48,7 +48,8 @@ const ProductDetails = () => {
 
       <div className="flex-1 flex flex-col justify-center space-y-6">
         <h1 className="text-4xl font-extrabold">{product.name}</h1>
-        <p className="text-2xl font-semibold">${product.price.toFixed(2)}</p>
+        <p className="text-2xl font-semibold">₹{product.price.toLocaleString("en-IN")}</p>
+
         <p className="text-gray-400 leading-relaxed">{product.description}</p>
 
         <div className="flex items-center space-x-4">
@@ -56,7 +57,7 @@ const ProductDetails = () => {
             onClick={decrement}
             className="bg-blue-500 hover:bg-blue-400 text-black font-bold rounded-full w-10 h-10 flex items-center justify-center text-2xl select-none"
           >
-            −
+          
           </button>
           <span className="text-xl">{quantity}</span>
           <button
