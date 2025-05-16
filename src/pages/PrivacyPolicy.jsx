@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
 
       <h2 className="text-2xl font-bold mb-2">Contact Us</h2>
       <p>
-        If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@example.com" className="underline hover:text-blue-400">support@example.com</a>.
+        If you have any questions about this Privacy Policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a>.
       </p>
     </motion.div>
   );
