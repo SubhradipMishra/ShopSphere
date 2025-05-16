@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const RefundPolicy = () => (
   <motion.div
-    className="max-w-5xl mx-auto p-8 bg-gradient-to-br from-black via-yellow-900 to-black text-yellow-300 min-h-screen"
+    className="max-w-5xl mx-auto p-8 bg-gradient-to-br from-black via-blue-900 to-black text-blue-300 min-h-screen"
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
@@ -33,7 +33,7 @@ const RefundPolicy = () => (
 
     <h2 className="text-2xl font-semibold mb-3">Refund Process</h2>
     <p className="mb-4">
-      To request a refund, please contact our support team at <a href="mailto:support@example.com" className="underline hover:text-yellow-400">support@example.com</a> with your order details.
+      To request a refund, please contact our support team at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a> with your order details.
     </p>
     <p className="mb-4">
       Once your return is received and inspected, we will notify you of the approval or rejection of your refund.
@@ -54,7 +54,7 @@ const RefundPolicy = () => (
 
     <h2 className="text-2xl font-semibold mb-3">Contact Us</h2>
     <p>
-      If you have any questions about our refund policy, please contact us at <a href="mailto:support@example.com" className="underline hover:text-yellow-400">support@example.com</a>.
+      If you have any questions about our refund policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a>.
     </p>
   </motion.div>
 );
