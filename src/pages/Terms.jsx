@@ -84,3 +84,5 @@ const Terms = () => (
 );
 
 export default Terms;
+
+// https://shop-sphere-b41e.vercel.app/

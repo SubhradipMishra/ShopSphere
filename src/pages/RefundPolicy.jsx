@@ -26,9 +26,9 @@ const RefundPolicy = () => (
       At ShopSphere, we strive to deliver your order quickly, accurately, and in good condition.
     </p>
     <ul className="list-disc ml-6 mb-4 space-y-2">
-      <li><strong>Standard Shipping:</strong> 4–7 business days</li>
-      <li><strong>Express Shipping:</strong> 1–3 business days</li>
-      <li><strong>International Shipping:</strong> 7–14 business days</li>
+      <li><strong>Standard delivery :</strong> 4–7 business days</li>
+      <li><strong>Express delivery:</strong> 1–3 business days</li>
+      <li><strong>International delivery:</strong> 7–14 business days</li>
     </ul>
     <p className="mb-4">
       Shipping charges are calculated at checkout based on the destination and order weight.
