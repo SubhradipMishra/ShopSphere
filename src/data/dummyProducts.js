@@ -1,16 +1,16 @@
 const dummyProducts = [
   {
     id: '1',
-    name: 'Smart Watch',
-    price:2599.99,
-    image: 'https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=600&q=80',
-    description: 'A smart watch with all the latest features.',
+    name: 'Wireless Mouse',
+    price:1599.99,
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'A wireless mouse with all the latest features and rgb light.',
   },
   {
     id: '2',
     name: 'Bluetooth Speaker',
     price: 1659.99,
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description: 'Portable Bluetooth speaker with deep bass.',
   },
   {
@@ -29,25 +29,18 @@ const dummyProducts = [
   },
   {
     id: '5',
-    name: 'Portable Charger',
+    name: 'Gaming Keyboard',
     price: 1329.99,
-    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80',
+    image: 'https://static.vecteezy.com/system/resources/previews/007/942/559/non_2x/gaming-keyboard-rgb-effect-illustration-free-vector.jpg',
     description: 'Keep your devices charged on the go.',
   },
   {
     id: '6',
-    name: 'Smartphone Gimbal',
-    price: 10059.99,
-    image: 'https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=600&q=80',
-    description: 'Stabilize your smartphone videos with ease.',
-  },
-  {
-    id: '7',
-    name: 'Drone with Camera',
-    price: 25999.99,
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80',
-    description: 'Capture breathtaking aerial footage.',
-  },
+    name: 'Laptop Cooling Pad',
+    price: 1059.99,
+    image: 'https://i.pinimg.com/736x/78/33/8b/78338b36223658410e899fcbb5616061.jpg',
+    description: 'Keep your laptop Cool',
+  }
 ];
 
 export default dummyProducts;

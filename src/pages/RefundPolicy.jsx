@@ -42,7 +42,7 @@ const RefundPolicy = () => (
 
     <h2 className="text-2xl font-semibold mb-3">Refund Process</h2>
     <p className="mb-4">
-      To request a refund, please contact our support team at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a> with your order details.
+      To request a refund, please contact our support team at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">shopsphere@gmail.com</a> with your order details.
     </p>
     <p className="mb-4">
       Once your return is received and inspected, we will notify you of the approval or rejection of your refund.
@@ -63,7 +63,7 @@ const RefundPolicy = () => (
 
     <h2 className="text-2xl font-semibold mb-3">Contact Us</h2>
     <p>
-      If you have any questions about our refund or shipping policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">support@example.com</a>.
+      If you have any questions about our refund or shipping policy, please contact us at <a href="mailto:shopsphere@example.com" className="underline hover:text-blue-400">shopsphere@gmail.com</a>.
     </p>
   </motion.div>
 );
